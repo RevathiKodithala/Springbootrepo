@@ -1,0 +1,6 @@
+my:
+  app:
+    db:
+      driver: MySQL
+      password: ashokIT
+      url: JDBC-MYSQL

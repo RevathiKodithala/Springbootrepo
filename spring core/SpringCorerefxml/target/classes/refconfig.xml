@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+    <bean id="dbobj" class="com.app.ref.SpringBeanref">
+    <property name="driver"  value="Oracledriver"></property>
+    <property name="url"  value="jdbc.oracle"></property>
+        
+    </bean>
+       <bean id="refobj" class="com.app.ref.refclass">
+       <property name="con">
+       <ref bean="dbobj"/>
+       </property>
+       </bean>
+
+
+
+</beans>

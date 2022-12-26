@@ -1,0 +1,6 @@
+my:
+  app:
+    db:
+      password: sample
+      url: JDBC-ORCL-PROD
+      username: test

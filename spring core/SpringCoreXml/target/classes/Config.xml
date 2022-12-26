@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+   <bean id="mobj"  class="com.app.bean.MyDetails">
+      <property name="data">
+        <list>
+               <value>A</value>
+               <value>B</value>
+               <value>C</value>
+               <value>D</value>
+               
+        </list></property>
+        
+        <property name="models">
+          <set>
+                 
+                  <value>M1</value>
+                  <value>M2</value>
+                  <value>M3</value>
+                  <value>M4</value>
+          </set>
+        </property>
+        <property name="design">
+           <map>
+              <entry>
+                <key> 
+                   <value>101</value>
+                </key>
+                   <value>AB</value>
+               </entry>
+           <entry>
+                 <key>
+                 <value>102</value>
+                 </key>
+                <value>BC</value>
+          </entry>
+               <entry>
+                   <key>
+                      <value>103</value>
+                   </key>
+                    <value>AC</value>
+                </entry>
+                </map>
+          </property>
+          <property name="MyInfo">
+          <props>
+              <prop key="A1">B1</prop>
+               <prop key="A2">B2</prop>
+                <prop key="A3">B3</prop>
+              
+          </props>
+          
+
+          </property>
+
+        </bean>
+
+
+<!-- bean definitions here -->
+
+</beans>
